@@ -108,3 +108,7 @@ while l > 0 do
  --
  t.r()
 end
+shell.run("clear")
+print("TurtleStrip(Alpha)\n\n")
+print("Fertig!")
+
