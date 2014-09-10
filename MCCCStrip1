@@ -1,15 +1,28 @@
-test
-print("TurtleStrip(Alpha)\n\n\n")
-print("Lege bitte Fackeln in S16 und Kohle in S15\n\n")
+function
+
+
+
+shell.run("clear")
+print("TurtleStrip(Alpha)\n\n")
+print("Lege bitte Fackeln in S15 und Kohle in S16\n\n")
 print(turtle.getFuelLevel())
 print("y/n\n")
 write("Soll ich nachfüllen ? >: ")
 re = io.read()
 if re == "y" then
+ turtle.select(15)
  turtle.refuel()
+ turtle.select(1)
  print("Turtle nachgeladen!")
 elseif re == "n" then
  print("Ok dann hat nicht")
 end
-
+--Mine
+shell.run("clear")
+print("TurtleStrip(Alpha)\n\n")
+write("Wie viele gänge soll ich machen? >: ")
+l = io.read()
+l = l+0
+while l > 0 do
+ turtle.
 
