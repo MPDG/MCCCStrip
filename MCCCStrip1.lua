@@ -8,7 +8,7 @@ function t.dd() return turtle.digDown() end
 function t.p() return turtle.place() end
 function t.pu() return turtle.placeUp() end
 function t.pd() return turtle.placeDown() end
-function t.s(...) return turtle.turtle.select(...) end
+function t.s(...) return turtle.select(...) end
 --
 shell.run("clear")
 print("TurtleStrip(Alpha)\n\n")
