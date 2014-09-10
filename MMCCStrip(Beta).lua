@@ -2,7 +2,7 @@
   
     turtle.select(1)
     shell.run("clear")
-    print("TurtleStrip(Alpha)\n\n")
+    print("TurtleStrip(Beta)\n\n")
     print("Lege bitte Fackeln in S15 und Kohle in S16\n\n")
     print(turtle.getFuelLevel())
     print("y/n\n")
@@ -15,7 +15,7 @@
      print("Turtle nachgeladen!")
      sleep(2)
     elseif re == "n" then
-     print("Ok dann hat nicht")
+     print("Ok dann halt nicht")
      sleep(2)
     end
     turtle.select(1)
@@ -23,8 +23,8 @@
     --Mine
     shell.run("clear")
     print("TurtleStrip(Alpha)\n\n")
-    print("Empfohlende Menge an Gaengen: "..menge.." !\n")
-    write("Wie viele gaenge soll ich machen? >: ")
+    print("Empfohlene Menge an Gaengen: "..menge.." !\n")
+    write("Wie viele Gaenge soll ich machen? >: ")
     l = io.read()
     l = l+0
     while l > 0 do
